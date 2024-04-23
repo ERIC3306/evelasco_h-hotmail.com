@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { todoReducer } from '../08-useReducer/todoReducer';
+import { todoReducer } from './todoReducer';
 
 const init = () => {
     //Obtenemos el objeto 'todos' del localStorage del navegador y lo guardamos en la memoria del navegador, para que el refrescar la pagina no se borre el objeto de la pagina
